@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# direnv
+.direnv/
+
+# 再配布禁止の素材
+profile_icon.jpeg
+
+# 外部テーマの一時配置場所
+themes/third-party

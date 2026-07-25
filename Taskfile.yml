@@ -1,0 +1,23 @@
+version: '3'
+
+silent: true
+
+tasks:
+  default:
+    cmds:
+      - task --list
+
+  marp_build:
+    desc: Convert md to pdf using marp
+    aliases:
+      - marp
+    preconditions:
+      - sh: test -n "{{.CLI_ARGS}}"
+        msg: "file-name or directory is required, e.g. task marp_build -- slides/topic1/main.md or slides/topic1"
+    cmds:
+      - marp --pdf --allow-local-files {{.CLI_ARGS}}
+
+  assets:sync:
+    desc: Place private slide assets
+    cmds:
+      - nix run .#place-slide-assets
