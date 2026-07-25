@@ -1,0 +1,103 @@
+{
+    "derivations": {
+        "r0jrgfq91xkgva4j7bj32x43qwc2qchy-zlib-1.3.2.drv": {
+            "args": [
+                "-e",
+                "/nix/store/l622p70vy8k5sh7y5wizi5f2mic6ynpg-source-stdenv.sh",
+                "/nix/store/shkw4qm9qcw5sc5n1k5jznc83ny02r39-default-builder.sh"
+            ],
+            "builder": "/nix/store/6pj37gbk9x89s9iidwj4xvkzhcnjihv8-bash-static-5.3/bin/bash",
+            "env": {
+                "NIX_CFLAGS_COMPILE": "-static-libgcc",
+                "__structuredAttrs": "",
+                "buildInputs": "",
+                "builder": "/nix/store/6pj37gbk9x89s9iidwj4xvkzhcnjihv8-bash-static-5.3/bin/bash",
+                "cmakeFlags": "",
+                "configureFlags": "--includedir=/02qcpld1y6xhs5gz9bchpxaw0xdhmsp5dv88lh25r2ss44kh8dxz/include --sharedlibdir=/1rz4g4znpzjwh1xymhjpm42vipw92pr73vdgl6xs1hycac8kf2n9/lib --libdir=/1rk3cgkqcvdsapdc35lyidbrifq4gkcl71652d7v3hm4gps1sqsv/lib --enable-shared",
+                "configurePlatforms": "",
+                "depsBuildBuild": "",
+                "depsBuildBuildPropagated": "",
+                "depsBuildTarget": "",
+                "depsBuildTargetPropagated": "",
+                "depsHostHost": "",
+                "depsHostHostPropagated": "",
+                "depsTargetTarget": "",
+                "depsTargetTargetPropagated": "",
+                "dev": "/nix/store/fjas1zgi2xawi1aldkyn2d920jc1avcf-zlib-1.3.2-dev",
+                "doCheck": "1",
+                "doInstallCheck": "",
+                "dontAddStaticConfigureFlags": "1",
+                "dontConfigure": "",
+                "dontDisableStatic": "1",
+                "dontStrip": "",
+                "enableParallelBuilding": "1",
+                "enableParallelChecking": "1",
+                "enableParallelInstalling": "1",
+                "installFlags": "",
+                "makeFlags": "PREFIX= pkgconfigdir=/02qcpld1y6xhs5gz9bchpxaw0xdhmsp5dv88lh25r2ss44kh8dxz/share/pkgconfig SHARED_MODE=1",
+                "mesonFlags": "",
+                "name": "zlib-1.3.2",
+                "nativeBuildInputs": "",
+                "out": "/nix/store/b2swxfi8srrbsafvh9iyyhd26mz9giwf-zlib-1.3.2",
+                "outputDoc": "dev",
+                "outputs": "out dev static",
+                "patches": "/nix/store/0rw1qmkghff7lf6lm75c6i0pi7jrm2jm-export-variable.patch",
+                "pname": "zlib",
+                "postInstall": "",
+                "postPatch": "substituteInPlace configure \\\n  --replace-fail '/usr/bin/libtool' 'ar' \\\n  --replace-fail 'AR=\"libtool\"' 'AR=\"ar\"' \\\n  --replace-fail 'ARFLAGS=\"-o\"' 'ARFLAGS=\"-r\"'\nsubstituteInPlace win32/zlib.def \\\n  --replace-fail 'gzopen_w' \"\"\n",
+                "preConfigure": "",
+                "propagatedBuildInputs": "",
+                "propagatedNativeBuildInputs": "",
+                "setOutputFlags": "",
+                "src": "/nix/store/13vkic2v8zac4m6p38asdhasb3xylv07-zlib-1.3.2.tar.gz",
+                "static": "/nix/store/vzcikza6c7wxkg9z67plrqkfhbai48cd-zlib-1.3.2-static",
+                "stdenv": "/nix/store/6fnyyqcig94lvz98gngfb7if18y2bwg7-bootstrap-stage3-stdenv-linux",
+                "strictDeps": "1",
+                "system": "x86_64-linux",
+                "version": "1.3.2"
+            },
+            "inputs": {
+                "drvs": {
+                    "akag406i2x9yrv04yz1ydq9hnh63pkks-zlib-1.3.2.tar.gz.drv": {
+                        "dynamicOutputs": {},
+                        "outputs": [
+                            "out"
+                        ]
+                    },
+                    "hz4xah0gkdzl6wcmp38f27jwfrqjl74r-bash-static-5.3.drv": {
+                        "dynamicOutputs": {},
+                        "outputs": [
+                            "out"
+                        ]
+                    },
+                    "n3y811953gk61w4fjl5lmfy5wyak1xby-bootstrap-stage3-stdenv-linux.drv": {
+                        "dynamicOutputs": {},
+                        "outputs": [
+                            "out"
+                        ]
+                    }
+                },
+                "srcs": [
+                    "0rw1qmkghff7lf6lm75c6i0pi7jrm2jm-export-variable.patch",
+                    "l622p70vy8k5sh7y5wizi5f2mic6ynpg-source-stdenv.sh",
+                    "shkw4qm9qcw5sc5n1k5jznc83ny02r39-default-builder.sh"
+                ]
+            },
+            "name": "zlib-1.3.2",
+            "outputs": {
+                "dev": {
+                    "path": "fjas1zgi2xawi1aldkyn2d920jc1avcf-zlib-1.3.2-dev"
+                },
+                "out": {
+                    "path": "b2swxfi8srrbsafvh9iyyhd26mz9giwf-zlib-1.3.2"
+                },
+                "static": {
+                    "path": "vzcikza6c7wxkg9z67plrqkfhbai48cd-zlib-1.3.2-static"
+                }
+            },
+            "system": "x86_64-linux",
+            "version": 4
+        }
+    },
+    "version": 4
+}

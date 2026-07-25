@@ -1,0 +1,132 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" style="background: transparent; background-color: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="551px" height="99px" viewBox="-0.5 -0.5 551 99" content="&lt;mxfile&gt;&lt;diagram id=&quot;794Ct5DAmXhyMe7JkFtt&quot; name=&quot;ページ1&quot;&gt;1VdNc5swEP01OqYDyGA4gmOn05l2MuNDm6PGKKAZQK6Qv/rru0JLAGMnTuI000PC7tMKrfT2rTChs3J/p9g6/y5TXhDPSfeE3hLPC8IJ/DfAwQKUOhbIlEgt5HbAUvzhCLZhG5HyehCopSy0WA/BlawqvtIDjCkld8OwR1kMV12zjI+A5YoVY/SnSHVu0dCbdvhXLrK8XdkNIjtSsjYYd1LnLJW7HkTnhM6UlNpa5X7GC3N27bnYeYszo0+JKV7piyZQzEMf2s3xFPaKbiUreCS5LgvwXDDhverwCxyndR6M88Vv3dt9f/D2gN44Mcy1lhu1wqU95JKpjGNUYCGTVG8abuaOy5LDKhCgeMG02A4JYshz9hTXHQUYeBqnTwZz2bJigy8lXlBAVsmjhC1A1TBMO/i9MXQlP6SWgC9ZVcPj2303AlbWPOcRiQISe2QekMgnCZDjxPBH5pSELomn7RqQnV0GJyKciu0x9PZs7oRul/ZI5KERTxqDkoQikkSIhGE7NEMjTl5IGOBBzke1puSmSnmKtbXLhebLtd3JDjrHsPTOltCWK833z5YHjk5Rdth3InR3nYjdVpl5T8AT5/315E7erLROXA/9sfcozR8rzbu20pqpsVLs0AtYS1HpuvfmewN0DPmOP6DInR41sKN4lzrPxYNhM+g4etrKRbT5Z9vAVbVoGkI4IxFIzSdhYppDp8uQxEEjR5/ECxItXqm59+YGslzl5tY1/eLftadmOXOFP4oMjJubQtS6Mepc7m6kEpmo/q/2Q6NhsYbj/uPRE/3Hv0b/cUbbf77/XNRHgnEf8T/rxg4+5MYGzc2N5owKXaPRcxX3ybXl0U+828IXjv6yzx/oe7bphVEDnohOeh9LlpyJiTYRCUkml5IDZ6qHDLBCZBXYK2CAKwDMyQv45I9xoBRpaqafpLIj28E9L1gpCkPFqMauw7ZzdO1NTtAdnqCbvp5ucLsfJPYK7X7V0flf&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <g>
+            <path d="M 120 30 L 153.63 30" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 158.88 30 L 151.88 33.5 L 153.63 30 L 151.88 26.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="0" y="10" width="120" height="40" rx="6" ry="6" fill="#ffffff" stroke="#000000" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 30px; margin-left: 1px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    <font face="Noto Sans JP">
+                                        関数 A で
+                                    </font>
+                                    <div>
+                                        <font face="Noto Sans JP">
+                                            Git をインストール
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="60" y="34" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">
+                        関数 A で...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 435 50 L 435 80 Q 435 90 425 90 L 70 90 Q 60 90 60 80 L 60 56.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 60 51.12 L 63.5 58.12 L 60 56.37 L 56.5 58.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="320" y="0" width="230" height="50" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 25px; margin-left: 321px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    <div>
+                                        <font face="Noto Sans JP">
+                                            挙動を観察
+                                        </font>
+                                    </div>
+                                    <font face="Noto Sans JP">
+                                        which git
+                                    </font>
+                                    <div>
+                                        <font face="Noto Sans JP">
+                                            git config --list --show-origin
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="435" y="29" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">
+                        挙動を観察which git...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 280 28.6 L 313.63 27.82" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 318.88 27.7 L 311.97 31.36 L 313.63 27.82 L 311.8 24.36 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="160" y="10" width="120" height="40" rx="6" ry="6" fill="#ffffff" stroke="#000000" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 30px; margin-left: 161px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    <font face="Noto Sans JP">
+                                        実行
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="220" y="34" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">
+                        実行
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="130" y="60" width="180" height="30" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 178px; height: 1px; padding-top: 75px; margin-left: 131px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Noto Sans JP&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    <font>
+                                        関数 A から 関数 B に変更
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="220" y="79" fill="light-dark(#000000, #ffffff)" font-family="&quot;Noto Sans JP&quot;" font-size="12px" text-anchor="middle">
+                        関数 A から 関数 B に変更
+                    </text>
+                </switch>
+            </g>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

@@ -1,0 +1,90 @@
+{
+    "derivations": {
+        "jgfgyvdyyimna6s9bya9j9719yxcjnyr-rt-only-demo.drv": {
+            "args": [
+                "-e",
+                "/nix/store/l622p70vy8k5sh7y5wizi5f2mic6ynpg-source-stdenv.sh",
+                "/nix/store/shkw4qm9qcw5sc5n1k5jznc83ny02r39-default-builder.sh"
+            ],
+            "builder": "/nix/store/zh1ijdhb6gng1509b1zrilb6xlzx60j6-bash-5.3p9/bin/bash",
+            "env": {
+                "NIX_MAIN_PROGRAM": "rt-only-demo",
+                "__structuredAttrs": "",
+                "allowSubstitutes": "1",
+                "buildCommand": "target=$out$destination\nmkdir -p \"$(dirname \"$target\")\"\n\nif [ -e \"$textPath\" ]; then\n  mv \"$textPath\" \"$target\"\nelse\n  printf \"%s\" \"$text\" > \"$target\"\nfi\n\nif [ -n \"$executable\" ]; then\n  chmod +x \"$target\"\nfi\n\neval \"$checkPhase\"\n",
+                "buildInputs": "",
+                "builder": "/nix/store/zh1ijdhb6gng1509b1zrilb6xlzx60j6-bash-5.3p9/bin/bash",
+                "checkPhase": "runHook preCheck\n/nix/store/zh1ijdhb6gng1509b1zrilb6xlzx60j6-bash-5.3p9/bin/bash -n -O extglob \"$target\"\n# use shellcheck which does not include docs\n# pandoc takes long to build and documentation isn't needed for just running the cli\n/nix/store/2p1yryyhabxclhmd9pkmjy20gggjb2cf-ShellCheck-0.11.0/bin/shellcheck  \"$target\"\n\nrunHook postCheck\n",
+                "cmakeFlags": "",
+                "configureFlags": "",
+                "depsBuildBuild": "",
+                "depsBuildBuildPropagated": "",
+                "depsBuildTarget": "",
+                "depsBuildTargetPropagated": "",
+                "depsHostHost": "",
+                "depsHostHostPropagated": "",
+                "depsTargetTarget": "",
+                "depsTargetTargetPropagated": "",
+                "destination": "/bin/rt-only-demo",
+                "doCheck": "",
+                "doInstallCheck": "",
+                "executable": "1",
+                "mesonFlags": "",
+                "name": "rt-only-demo",
+                "nativeBuildInputs": "",
+                "out": "/nix/store/ipnz4shhggspfl9s0scz4g7ppnz0im88-rt-only-demo",
+                "outputs": "out",
+                "passAsFile": "text",
+                "patches": "",
+                "preferLocalBuild": "",
+                "propagatedBuildInputs": "",
+                "propagatedNativeBuildInputs": "",
+                "stdenv": "/nix/store/pr27j8nm0xl52pq4ylncj9kwjw3b84mk-stdenv-linux",
+                "strictDeps": "",
+                "system": "x86_64-linux",
+                "text": "#!/nix/store/zh1ijdhb6gng1509b1zrilb6xlzx60j6-bash-5.3p9/bin/bash\nset -o errexit\nset -o nounset\nset -o pipefail\n\nexport PATH=\"/nix/store/wic6vblh6vjpw8m1zzbl5cncchkgghqi-cowsay-3.8.4/bin\"\n\ncowsay \"runtime dependency\"\n\n"
+            },
+            "inputs": {
+                "drvs": {
+                    "bxlz3hzl8k02rnxpgml6krqkrnpird91-stdenv-linux.drv": {
+                        "dynamicOutputs": {},
+                        "outputs": [
+                            "out"
+                        ]
+                    },
+                    "d46qk693yvyxak7b55klr7fnnhnm6gbc-cowsay-3.8.4.drv": {
+                        "dynamicOutputs": {},
+                        "outputs": [
+                            "out"
+                        ]
+                    },
+                    "g7p7rs03xah2w00a142hzas9h4fkwpck-bash-5.3p9.drv": {
+                        "dynamicOutputs": {},
+                        "outputs": [
+                            "out"
+                        ]
+                    },
+                    "l3y6kphj5y6sy7nihv9scv5j8naf6n2n-ShellCheck-0.11.0.drv": {
+                        "dynamicOutputs": {},
+                        "outputs": [
+                            "out"
+                        ]
+                    }
+                },
+                "srcs": [
+                    "l622p70vy8k5sh7y5wizi5f2mic6ynpg-source-stdenv.sh",
+                    "shkw4qm9qcw5sc5n1k5jznc83ny02r39-default-builder.sh"
+                ]
+            },
+            "name": "rt-only-demo",
+            "outputs": {
+                "out": {
+                    "path": "ipnz4shhggspfl9s0scz4g7ppnz0im88-rt-only-demo"
+                }
+            },
+            "system": "x86_64-linux",
+            "version": 4
+        }
+    },
+    "version": 4
+}
