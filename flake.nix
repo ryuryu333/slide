@@ -9,9 +9,10 @@
 
   outputs =
     {
+      self,
       nixpkgs,
       flake-utils,
-      dotfiles-private,
+      dotfiles-private
     }:
     let
       supportSystems = with flake-utils.lib.system; [
@@ -27,7 +28,7 @@
           config.allowUnfreePredicate =
             pkg:
             builtins.elem (pkgs.lib.getName pkg) [
-              "terraform"
+              "google-chrome"
             ];
         };
         
@@ -47,17 +48,20 @@
 
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
-            marp
+            marp-cli
             go-task
             fontconfig
             google-chrome
-
           ];
+
+          CHROME_PATH = pkgs.lib.getExe pkgs.google-chrome;
+
           FONTCONFIG_FILE = pkgs.makeFontsConf {
             fontDirectories = with pkgs; [
               hachimarupop
               noto-fonts-cjk-sans
             ];
+          };
         };
       }
     );
