@@ -1,0 +1,9 @@
+{
+    "markdown.copyFiles.destination": {
+        "**.md": "images/${isoTime}.${fileExtName}"
+    },
+    "hediet.vscode-drawio.defaultVertexStyle": {
+        "fontFamily": "Noto Sans JP"
+    },
+    "hediet.vscode-drawio.appearance": "high-contrast"
+}
