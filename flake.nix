@@ -41,7 +41,7 @@
           name = "place-slide-assets";
           text = ''
             mkdir -p slides/utl/images
-            cp -Rf ${dotfiles-private.slideAssets}/. slides/utl/images/
+            ln -sfn ${dotfiles-private.slideAssets}/profile_icon.jpeg slides/utl/images/profile_icon.jpeg
 
             mkdir -p themes/third-party
             ln -sfn ${marp-theme-dracula}/dracula themes/third-party/dracula
