@@ -33,6 +33,22 @@
         "type": "github"
       }
     },
+    "marp-theme-dracula": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647818988,
+        "narHash": "sha256-V6TwIr2qJ1hW0oS49NJk7drCGxFp1ORBdbJiw3m2DcE=",
+        "owner": "dracula",
+        "repo": "marp",
+        "rev": "4e5e0fc09a548f225d2765cbe4722b40c6c608c2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dracula",
+        "repo": "marp",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1766870016,
@@ -53,6 +69,7 @@
       "inputs": {
         "dotfiles-private": "dotfiles-private",
         "flake-utils": "flake-utils",
+        "marp-theme-dracula": "marp-theme-dracula",
         "nixpkgs": "nixpkgs"
       }
     },

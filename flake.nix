@@ -5,6 +5,10 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     dotfiles-private.url = "git+ssh://git@github.com/ryuryu333/dotfiles-private.git";
+    marp-theme-dracula = {
+      url = "github:dracula/marp";
+      flake = false;
+    };
   };
 
   outputs =
@@ -13,6 +17,7 @@
       nixpkgs,
       flake-utils,
       dotfiles-private,
+      marp-theme-dracula,
     }:
     let
       supportSystems = with flake-utils.lib.system; [
@@ -36,7 +41,10 @@
           name = "place-slide-assets";
           text = ''
             mkdir -p slides/utl/images
-            cp -R ${dotfiles-private.slideAssets}/. slides/utl/images/
+            cp -Rf ${dotfiles-private.slideAssets}/. slides/utl/images/
+
+            mkdir -p themes/third-party
+            ln -sfn ${marp-theme-dracula}/dracula themes/third-party/dracula
           '';
         };
       in
