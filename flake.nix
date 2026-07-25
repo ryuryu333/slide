@@ -12,7 +12,7 @@
       self,
       nixpkgs,
       flake-utils,
-      dotfiles-private
+      dotfiles-private,
     }:
     let
       supportSystems = with flake-utils.lib.system; [
@@ -31,7 +31,7 @@
               "google-chrome"
             ];
         };
-        
+
         place_slide_assets = pkgs.writeShellApplication {
           name = "place-slide-assets";
           text = ''
